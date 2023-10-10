@@ -8,12 +8,12 @@ public class Main {
         int n = scan.nextInt();
         int m = scan.nextInt();
         int[] result = new int[n];
-        System.out.println("введите "+m+" тоннелей");
+        System.out.println("введите заданное число тоннелей");
         for (int i = 0; i < 2*m; i++) {
             int x = scan.nextInt();
             result[x-1]++;
         }
         System.out.println(Arrays.toString(result));
-        System.out.println("ура-ура");
+
     }
 }
