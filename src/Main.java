@@ -14,5 +14,6 @@ public class Main {
             result[x-1]++;
         }
         System.out.println(Arrays.toString(result));
+        System.out.println("ура-ура");
     }
 }
